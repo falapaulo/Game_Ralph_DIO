@@ -1,0 +1,67 @@
+/* Estilos para o container principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../images/wall.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Estilos para o menu */
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  border-bottom: 5px solid #ffd700;
+}
+
+/* Estilos para o painel de jogo */
+.panel {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para os quadrados do jogo */
+.square {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #000000;
+  background-color: #1aeaa5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+/* Estilos para o inimigo */
+.enemy {
+  background-image: url("../images/ralph.png");
+  background-size: cover;
+}
+
+/* Estilos para a contagem de vidas no menu */
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos adicionais para as pontuações no menu */
+.menu-time h2,
+.menu-score h2 {
+  margin-top: 1rem;
+}
+
+/* Estilos adicionais para as imagens no menu */
+.menu-item img {
+  height: 60px;
+}
